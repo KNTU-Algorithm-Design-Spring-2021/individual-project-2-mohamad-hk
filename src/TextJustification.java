@@ -63,7 +63,7 @@ public class TextJustification {
     public static void main(String args[]){
         int countText = 0;
         Scanner scaner = new Scanner(System.in);
-        System.out.print("Enter no. of elements you want in array:");
+        System.out.print("Enter number of elements:");
         countText = scaner.nextInt();
         String text[] = new String[countText];
         for(int i = 0; i < countText; i++) {
