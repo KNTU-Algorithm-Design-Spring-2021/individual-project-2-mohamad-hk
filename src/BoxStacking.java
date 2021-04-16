@@ -68,6 +68,7 @@ public class BoxStacking {
         }
     }
 
+
     private static void printMaxStackHeight(Box[] boxes, int boxCount) {
         int allBoxCount = boxCount * 6;
         Box[] allBoxRotations = new Box[allBoxCount];
